@@ -8,6 +8,7 @@ from datetime import datetime
 import sys
 
 from fastmcp import Context
+from evo.common import APIConnector
 
 from evo_mcp.context import evo_context, ensure_initialized
 from evo_mcp.utils import extract_data_references
@@ -54,6 +55,11 @@ def register_workspace_tools(mcp):
                 evo_context.org_id = instance.id
                 evo_context.hub_url = instance.hubs[0].url
                 evo_context.save_variables_to_cache()
+                evo_context.connector = APIConnector(
+                    evo_context.hub_url,
+                    evo_context.connector.transport,
+                    evo_context.connector._authorizer,
+                )
                 return instance
 
         return None
