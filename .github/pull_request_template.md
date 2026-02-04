@@ -1,8 +1,8 @@
 <!--
 Thank you for taking the time to make a pull request.
 
-Please review our [contribution guide](https://github.com/SeequentEvo/evo-python-sdk/blob/main/CONTRIBUTING.md) and our
-[code of conduct](https://github.com/SeequentEvo/evo-python-sdk/blob/main/CONTRIBUTING.md) before opening your first
+Please review our [contribution guide](https://github.com/SeequentEvo/evo-mcp/blob/main/CONTRIBUTING.md) and our
+[code of conduct](https://github.com/SeequentEvo/evo-mcp/blob/main/CODE_OF_CONDUCT.md) before opening your first
 pull request.
 -->
 
