@@ -52,7 +52,7 @@ The server comes packaged with many tools written by Seequent, but it is fully e
 * Geoscience Object Creation: structured geoscience objects (Pointsets, Line Segments, Downhole Collections, and Downhole Intervals) in Evo directly from raw CSV files, automating data validation and schema mapping.
 
 > [!WARNING]
-> The Evo MCP server is in early development. Functionality is currently limited. You feeback on future development is welcome!
+> The Evo MCP server is in early development. Functionality is currently limited. Your feedback on future development is welcome!
 
 ## Evo MCP server architecture
 
