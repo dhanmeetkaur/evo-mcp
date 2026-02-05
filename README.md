@@ -358,4 +358,4 @@ Before using an MCP Server, you should consider conducting your own independent 
 
 ## Acknowledgements
 
-Much of this document was inspired by the excellent guide written by [AWS Labs](https://github.com/awslabs/mcp).
+Much of this document was inspired by the excellent guide written by [AWS Labs](https://github.com/awslabs/mcp)..
