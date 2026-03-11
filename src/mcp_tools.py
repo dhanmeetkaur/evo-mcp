@@ -37,6 +37,7 @@ from evo_mcp.tools import (
     register_filesystem_tools,
     register_object_builder_tools,
     register_instance_users_admin_tools,
+    register_workspace_users_admin_tools
 )
 
 # Get transport mode from environment variable
@@ -96,6 +97,7 @@ if TOOL_FILTER in ["all", "admin"]:
     # Includes: workspace creation, snapshots, duplication, permissions management
     register_admin_tools(mcp)
     register_instance_users_admin_tools(mcp)
+    register_workspace_users_admin_tools(mcp)
 if TOOL_FILTER in ["all", "data"]: #  "data_agent"
     # register_data_tools(mcp)
     register_filesystem_tools(mcp)
